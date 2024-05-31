@@ -7,8 +7,8 @@ async function fetchProducts() {
   for (const product of data) {
     products.innerHTML += `
     <div class="bg-white p-4 rounded-lg shadow-md">
-    <img src="${product.image}">
-        <h2><strong>Title:</strong> ${product.title}</h2>
+    <img src="${product.image}" class = "w-full h-16 object-cover mb-4 rounded">
+        <h2 class = "text-xl"><strong>Title:</strong> ${product.title}</h2>
         <h3><strong>Price: </strong>${product.price}</h3>
         <h3><strong>Price: </strong>${product.price}</h3>
         </div
